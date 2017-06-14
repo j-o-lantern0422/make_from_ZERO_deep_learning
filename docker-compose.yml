@@ -1,0 +1,10 @@
+version: '3'
+services:
+  project:
+    image: python:3.6
+    ports:
+      - 8888:8888
+    volumes:
+      - ./:/project
+    working_dir: "/project"
+    tty: true
