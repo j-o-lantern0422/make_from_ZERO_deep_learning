@@ -1,6 +1,6 @@
 
 apt-get update -y && apt-get install -y vim
-pip install ipython numpy pyreadline jupyter quandl scikit-learn matplotlib
+pip install ipython numpy pyreadline jupyter quandl scipy scikit-learn matplotlib
 
 mkdir -p /root/.jupyter
 echo "
